@@ -10,7 +10,7 @@
 .button {
     position: absolute;
     left: 50%;
-    bottom: 80px;
+    bottom: 10%;
     font-size: 1.25rem;
     transform: translate(-50%, 0);
     font-family: Montserrat, sans-serif;
@@ -34,4 +34,10 @@
 
 .button .badge {
     margin-left: 15px;
+}
+
+@media (min-width: 700px) {
+    .button {
+        bottom: 80px;
+    }
 }

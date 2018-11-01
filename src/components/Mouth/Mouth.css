@@ -1,6 +1,6 @@
 .mouth {
     position: absolute;
-    width: 200px;
+    width: 100px;
     height: 2px;
     background-color: black;
     border: 3px solid black;
@@ -12,8 +12,8 @@
 
 .sadMouth {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     left: 50%;
     transform: translateX(-50%);
     bottom: 35%;
@@ -31,4 +31,15 @@
     height: 80%;
     border-radius: 50%;
     border: 6px solid black;
+}
+
+@media (min-width: 700px) {
+    .mouth {
+        width: 200px;
+    }
+
+    .sadMouth {
+        width: 200px;
+        height: 200px;
+    }
 }

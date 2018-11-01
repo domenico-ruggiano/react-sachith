@@ -1,11 +1,11 @@
 .face {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     background-color: #fbe2f0;
-    width: 470px;
-    height: 500px;
+    width: 270px;
+    height: 300px;
     border-radius: 50%;
     border: 5px solid black;
     overflow: hidden;
@@ -13,4 +13,13 @@
 
 .face.black {
     background-color: #8D6E63;
+}
+
+@media (min-width: 700px) {
+    .face {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 470px;
+        height: 500px;
+    }
 }

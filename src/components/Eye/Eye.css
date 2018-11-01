@@ -1,8 +1,8 @@
 .eye {
     position: relative;
     margin: 15px;
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     border-radius: 50%;
 }
@@ -14,4 +14,11 @@
     transform: translate(-50%, -50%);
     width: 60%;
     height: 60%;
+}
+
+@media (min-width: 700px) {
+    .eye {
+        height: 150px;
+        width: 150px;
+    }
 }
