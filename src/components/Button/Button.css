@@ -8,6 +8,11 @@
 }
 
 .button {
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    font-size: 1.25rem;
+    transform: translate(-50%, 0);
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -23,7 +28,7 @@
 
 .button:hover {
     cursor: pointer;
-    transform: translateY(-3px);
+    transform: translate(-50, -3px);
     box-shadow: 1px 6px 15px rgba(0, 0, 0, .2);
 }
 
