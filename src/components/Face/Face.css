@@ -8,4 +8,9 @@
     height: 500px;
     border-radius: 50%;
     border: 5px solid black;
+    overflow: hidden;
+}
+
+.face.black {
+    background-color: #6D4C41;
 }
