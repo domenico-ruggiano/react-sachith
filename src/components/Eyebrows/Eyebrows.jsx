@@ -4,15 +4,17 @@ import classNames from 'classnames';
 import './Eyebrows.css';
 
 const propTypes = {
-  show: PropTypes.bool
+  show: PropTypes.bool,
+  className: PropTypes.string
 };
 
 const defaultProps = {
-  show: false
+  show: false,
+  className: ''
 };
 
-const Eyebrows = ({ show }) => (
-  <div className={classNames('eyebrows', { show })} />
+const Eyebrows = ({ show, className }) => (
+  <div className={classNames('eyebrows', { show }, className)} />
 );
 
 Eyebrows.propTypes = propTypes;
