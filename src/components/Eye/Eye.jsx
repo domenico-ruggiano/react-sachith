@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Pupil from './Pupil';
+import Pupil from '../Pupil/Pupil';
 import './Eye.css';
 
 const propTypes = {

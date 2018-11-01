@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Face from '../components/Face';
-import Eye from '../components/Eye';
-import Eyes from '../components/Eyes';
-import Mouth from '../components/Mouth';
+import Face from '../components/Face/Face';
+import Eye from '../components/Eye/Eye';
+import Eyes from '../components/Eyes/Eyes';
+import Mouth from '../components/Mouth/Mouth';
 
 class App extends Component {
 
