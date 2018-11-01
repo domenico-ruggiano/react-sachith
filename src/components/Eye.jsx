@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import Pupil from './Pupil';
 import './Eye.css';
 
 const propTypes = {
@@ -12,7 +13,9 @@ const defaultProps = {
 };
 
 const Eye = ({ className }) => (
-  <div className={classNames('eye', className)} />
+  <div className={classNames('eye', className)}>
+    <Pupil />
+  </div>
 );
 
 Eye.propTypes = propTypes;
