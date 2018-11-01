@@ -1,0 +1,13 @@
+.badge {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: .75rem;
+    text-transform: uppercase;
+    background-color: #424242;
+    color: white;
+    transition: background-color ease-out .3s;
+}
+
+.badge.on {
+    background-color: #ee6002;
+}

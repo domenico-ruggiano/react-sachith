@@ -1,0 +1,32 @@
+.button,
+.button:hover,
+.button:focus,
+.button:active,
+.button:visited {
+    border: none;
+    outline: none;
+}
+
+.button {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #0290ee;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .2);
+    transition: box-shadow ease-out .3s, transform ease-out .3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 1px 6px 15px rgba(0, 0, 0, .2);
+}
+
+.button .badge {
+    margin-left: 15px;
+}
