@@ -15,7 +15,6 @@ const defaultProps = {
 const Eyes = ({ className, children }) => (
   <div className={classNames('eyes', className)}>
     {children}
-    <div id="origin" />
   </div>
 );
 

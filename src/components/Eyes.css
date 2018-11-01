@@ -4,12 +4,3 @@
     justify-content: center;
     top: 20%;
 }
-
-
-#origin {
-    width: 3px;
-    height: 3px;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-}
