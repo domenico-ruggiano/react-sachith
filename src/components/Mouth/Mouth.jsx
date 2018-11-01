@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import './Mouth.css';
 
 const propTypes = {
+  sad: PropTypes.bool,
   className: PropTypes.string
 };
 
 const defaultProps = {
+  sad: false,
   className: ''
 };
 
-const Mouth = ({ className }) => (
-  <div className={classNames('mouth', className)} />
+const Mouth = ({ sad }) => (
+  <div className={sad ? 'sadMouth' : 'mouth'} />
 );
 
 Mouth.propTypes = propTypes;

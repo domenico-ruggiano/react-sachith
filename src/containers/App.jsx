@@ -41,7 +41,7 @@ class App extends Component {
             <Eye percent={{ x, y }} />
             <Eye percent={{ x, y }} />
           </Eyes>
-          <Mouth />
+          <Mouth sad={sachith} />
         </Face>
       </Fragment>
     )

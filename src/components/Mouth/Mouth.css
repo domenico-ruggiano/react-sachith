@@ -9,3 +9,26 @@
     transform: translateX(-50%);
     bottom: 35%;
 }
+
+.sadMouth {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35%;
+    overflow: hidden;
+}
+
+.sadMouth::after {
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%, -50%);
+    content: "";
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 6px solid black;
+}
