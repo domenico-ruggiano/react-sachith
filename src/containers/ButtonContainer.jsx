@@ -5,7 +5,7 @@ import Badge from '../components/Badge/Badge';
 
 const propTypes = {
   onClick: PropTypes.func,
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 
 const defaultProps = {

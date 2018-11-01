@@ -15,9 +15,7 @@ const defaultProps = {
 };
 
 const Face = ({ black, className, children }) => (
-  <div className={classNames('face', { black }, className)}>
-    {children}
-  </div>
+  <div className={classNames('face', { black }, className)}>{children}</div>
 );
 
 Face.propTypes = propTypes;

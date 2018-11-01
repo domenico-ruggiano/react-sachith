@@ -15,9 +15,7 @@ const defaultProps = {
 };
 
 const Badge = ({ on, className, children }) => (
-  <div className={classNames('badge', { on }, className)}>
-    {children}
-  </div>
+  <div className={classNames('badge', { on }, className)}>{children}</div>
 );
 
 Badge.propTypes = propTypes;

@@ -12,9 +12,7 @@ const defaultProps = {
   className: ''
 };
 
-const Mouth = ({ sad }) => (
-  <div className={sad ? 'sadMouth' : 'mouth'} />
-);
+const Mouth = ({ sad }) => <div className={sad ? 'sadMouth' : 'mouth'} />;
 
 Mouth.propTypes = propTypes;
 Mouth.defaultProps = defaultProps;

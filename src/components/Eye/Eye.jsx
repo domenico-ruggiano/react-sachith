@@ -9,7 +9,7 @@ const propTypes = {
     x: PropTypes.number,
     y: PropTypes.number
   }),
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 
 const defaultProps = {

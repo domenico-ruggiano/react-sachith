@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import Eye from '../components/Eye/Eye';
 
 class EyeContainer extends Component {
-
   state = {
     x: 50,
     y: 50
@@ -20,19 +19,19 @@ class EyeContainer extends Component {
     const { clientX, clientY } = e;
     const { innerWidth, innerHeight } = window;
     this.setState(() => ({
-      x: clientX * 100 / innerWidth,
-      y: clientY * 100 / innerHeight
-    }))
+      x: (clientX * 100) / innerWidth,
+      y: (clientY * 100) / innerHeight
+    }));
   };
 
   render() {
-    const {  x, y } = this.state;
+    const { x, y } = this.state;
     return (
       <Fragment>
         <Eye percent={{ x, y }} />
         <Eye percent={{ x, y }} />
       </Fragment>
-    )
+    );
   }
 }
 

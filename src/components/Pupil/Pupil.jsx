@@ -22,9 +22,7 @@ const Pupil = ({ percent, className }) => {
     top: `${y}%`,
     left: `${x}%`
   };
-  return (
-    <div className={classNames('pupil', className)} style={style} />
-  );
+  return <div className={classNames('pupil', className)} style={style} />;
 };
 
 Pupil.propTypes = propTypes;

@@ -8,7 +8,6 @@ import EyeContainer from './EyeContainer';
 import 'typeface-montserrat';
 
 class App extends Component {
-
   state = {
     sachith: false
   };
@@ -28,7 +27,7 @@ class App extends Component {
           <Mouth sad={sachith} />
         </Face>
       </Fragment>
-    )
+    );
   }
 }
 
