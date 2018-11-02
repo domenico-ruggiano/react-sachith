@@ -23,8 +23,17 @@ class EyeContainer extends Component {
     const event = e.srcEvent || e;
     const { clientX, clientY } = event;
     const { innerWidth, innerHeight } = window;
-    const x = (clientX * 100) / innerWidth;
-    const y = (clientY * 100) / innerHeight;
+    const { top, left } = document
+      .getElementById('origin')
+      .getBoundingClientRect();
+    const fromCenterY = innerHeight / 2 - top;
+    const fromCenterX = innerWidth / 2 - left;
+    console.log(fromCenterX, fromCenterY);
+    let x = ((clientX + fromCenterX) * 100) / innerWidth;
+    let y = ((clientY + fromCenterY) * 100) / innerHeight;
+
+    x = Math.min(Math.max(x, 0), 100);
+    y = Math.min(Math.max(y, 0), 100);
 
     if (!x && !y && mobile) return;
 
