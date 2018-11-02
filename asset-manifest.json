@@ -1,16 +1,16 @@
 {
-  "main.css": "/react-sachith/static/css/main.255b4555.chunk.css",
-  "main.js": "/react-sachith/static/js/main.a95fec9b.chunk.js",
-  "main.js.map": "/react-sachith/static/js/main.a95fec9b.chunk.js.map",
+  "main.css": "/react-sachith/static/css/main.f9b42267.chunk.css",
+  "main.js": "/react-sachith/static/js/main.f7490aa7.chunk.js",
+  "main.js.map": "/react-sachith/static/js/main.f7490aa7.chunk.js.map",
   "static/css/1.5834a689.chunk.css": "/react-sachith/static/css/1.5834a689.chunk.css",
   "static/js/1.d9cfed4a.chunk.js": "/react-sachith/static/js/1.d9cfed4a.chunk.js",
   "static/js/1.d9cfed4a.chunk.js.map": "/react-sachith/static/js/1.d9cfed4a.chunk.js.map",
   "runtime~main.js": "/react-sachith/static/js/runtime~main.43592020.js",
   "runtime~main.js.map": "/react-sachith/static/js/runtime~main.43592020.js.map",
-  "static/media/index.css": "/react-sachith/static/media/montserrat-latin-900.186cae80.woff",
-  "static/css/main.255b4555.chunk.css.map": "/react-sachith/static/css/main.255b4555.chunk.css.map",
+  "static/media/index.css": "/react-sachith/static/media/montserrat-latin-900italic.43b527fe.woff",
   "static/css/1.5834a689.chunk.css.map": "/react-sachith/static/css/1.5834a689.chunk.css.map",
+  "static/css/main.f9b42267.chunk.css.map": "/react-sachith/static/css/main.f9b42267.chunk.css.map",
   "index.html": "/react-sachith/index.html",
-  "precache-manifest.31565c6407e5a3add7e325cb9b138de7.js": "/react-sachith/precache-manifest.31565c6407e5a3add7e325cb9b138de7.js",
+  "precache-manifest.0bbba17ab5c57bca54db48b48c2e2859.js": "/react-sachith/precache-manifest.0bbba17ab5c57bca54db48b48c2e2859.js",
   "service-worker.js": "/react-sachith/service-worker.js"
 }
