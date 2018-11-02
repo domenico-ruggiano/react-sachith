@@ -28,7 +28,6 @@ class EyeContainer extends Component {
       .getBoundingClientRect();
     const fromCenterY = innerHeight / 2 - top;
     const fromCenterX = innerWidth / 2 - left;
-    console.log(fromCenterX, fromCenterY);
     let x = ((clientX + fromCenterX) * 100) / innerWidth;
     let y = ((clientY + fromCenterY) * 100) / innerHeight;
 
